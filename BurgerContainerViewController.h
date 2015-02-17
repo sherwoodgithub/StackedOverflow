@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BurgerContainerViewController.h
 //  Stacked
 //
 //  Created by Stephen on 2/16/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BurgerContainerViewController : UIViewController
 
 @end
-
