@@ -21,6 +21,8 @@
 		B8FCC4E51A95449B00BD5D28 /* WebOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4E41A95449B00BD5D28 /* WebOAuthViewController.m */; };
 		B8FCC4E81A9544B800BD5D28 /* SearchQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4E71A9544B800BD5D28 /* SearchQuestionsViewController.m */; };
 		B8FCC4EC1A954F1B00BD5D28 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4EB1A954F1B00BD5D28 /* Constants.m */; };
+		B8FCC4EF1A95541D00BD5D28 /* Questions.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4EE1A95541D00BD5D28 /* Questions.m */; };
+		B8FCC4F21A9554C500BD5D28 /* QuestionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4F11A9554C500BD5D28 /* QuestionTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,10 @@
 		B8FCC4E91A954DE600BD5D28 /* MenuPressedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuPressedDelegate.h; sourceTree = "<group>"; };
 		B8FCC4EA1A954F0800BD5D28 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		B8FCC4EB1A954F1B00BD5D28 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		B8FCC4ED1A95541D00BD5D28 /* Questions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Questions.h; sourceTree = "<group>"; };
+		B8FCC4EE1A95541D00BD5D28 /* Questions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Questions.m; sourceTree = "<group>"; };
+		B8FCC4F01A9554C500BD5D28 /* QuestionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionTableViewCell.h; sourceTree = "<group>"; };
+		B8FCC4F11A9554C500BD5D28 /* QuestionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,10 @@
 				B8FCC4E41A95449B00BD5D28 /* WebOAuthViewController.m */,
 				B8FCC4E61A9544B800BD5D28 /* SearchQuestionsViewController.h */,
 				B8FCC4E71A9544B800BD5D28 /* SearchQuestionsViewController.m */,
+				B8FCC4F01A9554C500BD5D28 /* QuestionTableViewCell.h */,
+				B8FCC4F11A9554C500BD5D28 /* QuestionTableViewCell.m */,
+				B8FCC4ED1A95541D00BD5D28 /* Questions.h */,
+				B8FCC4EE1A95541D00BD5D28 /* Questions.m */,
 				B86F6AA81A9318310072BA42 /* MenuTableViewController.h */,
 				B86F6AA91A9318310072BA42 /* MenuTableViewController.m */,
 				B8FCC4EA1A954F0800BD5D28 /* Constants.h */,
@@ -255,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B86F6AA71A93180A0072BA42 /* WebOAuthViewController.m in Sources */,
+				B8FCC4F21A9554C500BD5D28 /* QuestionTableViewCell.m in Sources */,
 				B8FCC4E51A95449B00BD5D28 /* WebOAuthViewController.m in Sources */,
 				B86F6A7C1A93171D0072BA42 /* AppDelegate.m in Sources */,
 				B86F6AA11A9317C40072BA42 /* BurgerContainerViewController.m in Sources */,
@@ -264,6 +275,7 @@
 				B86F6AAA1A9318310072BA42 /* MenuTableViewController.m in Sources */,
 				B8FCC4E81A9544B800BD5D28 /* SearchQuestionsViewController.m in Sources */,
 				B86F6A7F1A93171D0072BA42 /* Stacked.xcdatamodeld in Sources */,
+				B8FCC4EF1A95541D00BD5D28 /* Questions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

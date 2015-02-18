@@ -7,6 +7,8 @@
 //
 
 #import "SearchQuestionsViewController.h"
+#import "Questions.h"
+#import "QuestionTableViewCell.h"
 
 @interface SearchQuestionsViewController ()
 
