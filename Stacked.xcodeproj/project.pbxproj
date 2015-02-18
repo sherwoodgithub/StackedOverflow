@@ -17,6 +17,10 @@
 		B86F6AA11A9317C40072BA42 /* BurgerContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B86F6AA01A9317C40072BA42 /* BurgerContainerViewController.m */; };
 		B86F6AA71A93180A0072BA42 /* WebOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B86F6AA61A93180A0072BA42 /* WebOAuthViewController.m */; };
 		B86F6AAA1A9318310072BA42 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B86F6AA91A9318310072BA42 /* MenuTableViewController.m */; };
+		B8FCC4E21A95447300BD5D28 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4E11A95447300BD5D28 /* ProfileViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B8FCC4E51A95449B00BD5D28 /* WebOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4E41A95449B00BD5D28 /* WebOAuthViewController.m */; };
+		B8FCC4E81A9544B800BD5D28 /* SearchQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4E71A9544B800BD5D28 /* SearchQuestionsViewController.m */; };
+		B8FCC4EC1A954F1B00BD5D28 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4EB1A954F1B00BD5D28 /* Constants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,15 @@
 		B86F6AA61A93180A0072BA42 /* WebOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebOAuthViewController.m; path = ../WebOAuthViewController.m; sourceTree = "<group>"; };
 		B86F6AA81A9318310072BA42 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuTableViewController.h; path = ../MenuTableViewController.h; sourceTree = "<group>"; };
 		B86F6AA91A9318310072BA42 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewController.m; path = ../MenuTableViewController.m; sourceTree = "<group>"; };
+		B8FCC4E01A95447300BD5D28 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		B8FCC4E11A95447300BD5D28 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		B8FCC4E31A95449B00BD5D28 /* WebOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebOAuthViewController.h; sourceTree = "<group>"; };
+		B8FCC4E41A95449B00BD5D28 /* WebOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebOAuthViewController.m; sourceTree = "<group>"; };
+		B8FCC4E61A9544B800BD5D28 /* SearchQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchQuestionsViewController.h; sourceTree = "<group>"; };
+		B8FCC4E71A9544B800BD5D28 /* SearchQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchQuestionsViewController.m; sourceTree = "<group>"; };
+		B8FCC4E91A954DE600BD5D28 /* MenuPressedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuPressedDelegate.h; sourceTree = "<group>"; };
+		B8FCC4EA1A954F0800BD5D28 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		B8FCC4EB1A954F1B00BD5D28 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +102,19 @@
 		B86F6A751A93171D0072BA42 /* Stacked */ = {
 			isa = PBXGroup;
 			children = (
+				B8FCC4E91A954DE600BD5D28 /* MenuPressedDelegate.h */,
 				B86F6A9F1A9317C40072BA42 /* BurgerContainerViewController.h */,
 				B86F6AA01A9317C40072BA42 /* BurgerContainerViewController.m */,
+				B8FCC4E01A95447300BD5D28 /* ProfileViewController.h */,
+				B8FCC4E11A95447300BD5D28 /* ProfileViewController.m */,
+				B8FCC4E31A95449B00BD5D28 /* WebOAuthViewController.h */,
+				B8FCC4E41A95449B00BD5D28 /* WebOAuthViewController.m */,
+				B8FCC4E61A9544B800BD5D28 /* SearchQuestionsViewController.h */,
+				B8FCC4E71A9544B800BD5D28 /* SearchQuestionsViewController.m */,
 				B86F6AA81A9318310072BA42 /* MenuTableViewController.h */,
 				B86F6AA91A9318310072BA42 /* MenuTableViewController.m */,
+				B8FCC4EA1A954F0800BD5D28 /* Constants.h */,
+				B8FCC4EB1A954F1B00BD5D28 /* Constants.m */,
 				B86F6AA51A93180A0072BA42 /* WebOAuthViewController.h */,
 				B86F6AA61A93180A0072BA42 /* WebOAuthViewController.m */,
 				B86F6A7A1A93171D0072BA42 /* AppDelegate.h */,
@@ -233,10 +255,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B86F6AA71A93180A0072BA42 /* WebOAuthViewController.m in Sources */,
+				B8FCC4E51A95449B00BD5D28 /* WebOAuthViewController.m in Sources */,
 				B86F6A7C1A93171D0072BA42 /* AppDelegate.m in Sources */,
 				B86F6AA11A9317C40072BA42 /* BurgerContainerViewController.m in Sources */,
 				B86F6A791A93171D0072BA42 /* main.m in Sources */,
+				B8FCC4EC1A954F1B00BD5D28 /* Constants.m in Sources */,
+				B8FCC4E21A95447300BD5D28 /* ProfileViewController.m in Sources */,
 				B86F6AAA1A9318310072BA42 /* MenuTableViewController.m in Sources */,
+				B8FCC4E81A9544B800BD5D28 /* SearchQuestionsViewController.m in Sources */,
 				B86F6A7F1A93171D0072BA42 /* Stacked.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +456,7 @@
 				B86F6A9B1A93171D0072BA42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B86F6A9C1A93171D0072BA42 /* Build configuration list for PBXNativeTarget "StackedTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +465,7 @@
 				B86F6A9E1A93171D0072BA42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

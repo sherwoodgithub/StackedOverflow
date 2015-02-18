@@ -7,6 +7,8 @@
 //
 
 #import "MenuTableViewController.h"
+#import "WebOAuthViewController.h"
+#import "Constants.h"
 
 @interface MenuTableViewController ()
 
@@ -24,24 +26,42 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
+-(void)viewDidAppear:(BOOL)animated {
+  [super viewDidAppear:animated];
+  
+  NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+  NSString *token = [userDefaults stringForKey:@"token"];
+  if (!token) {
+    //this is the web view for login
+    WebOAuthViewController *webOauthController = [[WebOAuthViewController alloc] init];
+    
+    [self presentViewController:webOauthController animated:true completion:^{
+    }];
+  }
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+  [self.delegate menuOptionSelected:indexPath.row];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-#pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
-}
+//
+//#pragma mark - Table view data source
+//
+//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+//#warning Potentially incomplete method implementation.
+//    // Return the number of sections.
+//    return 0;
+//}
+//
+//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+//#warning Incomplete method implementation.
+//    // Return the number of rows in the section.
+//    return 0;
+//}
 
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
