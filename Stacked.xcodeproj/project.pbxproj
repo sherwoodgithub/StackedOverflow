@@ -23,6 +23,7 @@
 		B8FCC4EC1A954F1B00BD5D28 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4EB1A954F1B00BD5D28 /* Constants.m */; };
 		B8FCC4EF1A95541D00BD5D28 /* Questions.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4EE1A95541D00BD5D28 /* Questions.m */; };
 		B8FCC4F21A9554C500BD5D28 /* QuestionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4F11A9554C500BD5D28 /* QuestionTableViewCell.m */; };
+		B8FCC4F51A95608600BD5D28 /* StackOverflowService.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4F41A95608600BD5D28 /* StackOverflowService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		B8FCC4EE1A95541D00BD5D28 /* Questions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Questions.m; sourceTree = "<group>"; };
 		B8FCC4F01A9554C500BD5D28 /* QuestionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionTableViewCell.h; sourceTree = "<group>"; };
 		B8FCC4F11A9554C500BD5D28 /* QuestionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTableViewCell.m; sourceTree = "<group>"; };
+		B8FCC4F31A95608600BD5D28 /* StackOverflowService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackOverflowService.h; sourceTree = "<group>"; };
+		B8FCC4F41A95608600BD5D28 /* StackOverflowService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackOverflowService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				B8FCC4E61A9544B800BD5D28 /* SearchQuestionsViewController.h */,
 				B8FCC4E71A9544B800BD5D28 /* SearchQuestionsViewController.m */,
 				B8FCC4F01A9554C500BD5D28 /* QuestionTableViewCell.h */,
+				B8FCC4F31A95608600BD5D28 /* StackOverflowService.h */,
+				B8FCC4F41A95608600BD5D28 /* StackOverflowService.m */,
 				B8FCC4F11A9554C500BD5D28 /* QuestionTableViewCell.m */,
 				B8FCC4ED1A95541D00BD5D28 /* Questions.h */,
 				B8FCC4EE1A95541D00BD5D28 /* Questions.m */,
@@ -274,6 +279,7 @@
 				B8FCC4E21A95447300BD5D28 /* ProfileViewController.m in Sources */,
 				B86F6AAA1A9318310072BA42 /* MenuTableViewController.m in Sources */,
 				B8FCC4E81A9544B800BD5D28 /* SearchQuestionsViewController.m in Sources */,
+				B8FCC4F51A95608600BD5D28 /* StackOverflowService.m in Sources */,
 				B86F6A7F1A93171D0072BA42 /* Stacked.xcdatamodeld in Sources */,
 				B8FCC4EF1A95541D00BD5D28 /* Questions.m in Sources */,
 			);
