@@ -24,6 +24,9 @@
 		B8FCC4EF1A95541D00BD5D28 /* Questions.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4EE1A95541D00BD5D28 /* Questions.m */; };
 		B8FCC4F21A9554C500BD5D28 /* QuestionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4F11A9554C500BD5D28 /* QuestionTableViewCell.m */; };
 		B8FCC4F51A95608600BD5D28 /* StackOverflowService.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4F41A95608600BD5D28 /* StackOverflowService.m */; };
+		B8FCC4F91A97024800BD5D28 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4F81A97024800BD5D28 /* Deck.m */; };
+		B8FCC4FC1A9702AF00BD5D28 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4FB1A9702AF00BD5D28 /* Card.m */; };
+		B8FCC4FF1A9704C500BD5D28 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCC4FE1A9704C500BD5D28 /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,12 @@
 		B8FCC4F11A9554C500BD5D28 /* QuestionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTableViewCell.m; sourceTree = "<group>"; };
 		B8FCC4F31A95608600BD5D28 /* StackOverflowService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackOverflowService.h; sourceTree = "<group>"; };
 		B8FCC4F41A95608600BD5D28 /* StackOverflowService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackOverflowService.m; sourceTree = "<group>"; };
+		B8FCC4F71A97024800BD5D28 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		B8FCC4F81A97024800BD5D28 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		B8FCC4FA1A9702AF00BD5D28 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		B8FCC4FB1A9702AF00BD5D28 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		B8FCC4FD1A9704C500BD5D28 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		B8FCC4FE1A9704C500BD5D28 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +120,7 @@
 		B86F6A751A93171D0072BA42 /* Stacked */ = {
 			isa = PBXGroup;
 			children = (
+				B8FCC4F61A97022500BD5D28 /* DeckGameStanford */,
 				B8FCC4E91A954DE600BD5D28 /* MenuPressedDelegate.h */,
 				B86F6A9F1A9317C40072BA42 /* BurgerContainerViewController.h */,
 				B86F6AA01A9317C40072BA42 /* BurgerContainerViewController.m */,
@@ -167,6 +177,19 @@
 				B86F6A941A93171D0072BA42 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8FCC4F61A97022500BD5D28 /* DeckGameStanford */ = {
+			isa = PBXGroup;
+			children = (
+				B8FCC4F71A97024800BD5D28 /* Deck.h */,
+				B8FCC4F81A97024800BD5D28 /* Deck.m */,
+				B8FCC4FD1A9704C500BD5D28 /* PlayingCard.h */,
+				B8FCC4FE1A9704C500BD5D28 /* PlayingCard.m */,
+				B8FCC4FA1A9702AF00BD5D28 /* Card.h */,
+				B8FCC4FB1A9702AF00BD5D28 /* Card.m */,
+			);
+			name = DeckGameStanford;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,9 +297,12 @@
 				B8FCC4E51A95449B00BD5D28 /* WebOAuthViewController.m in Sources */,
 				B86F6A7C1A93171D0072BA42 /* AppDelegate.m in Sources */,
 				B86F6AA11A9317C40072BA42 /* BurgerContainerViewController.m in Sources */,
+				B8FCC4FC1A9702AF00BD5D28 /* Card.m in Sources */,
+				B8FCC4FF1A9704C500BD5D28 /* PlayingCard.m in Sources */,
 				B86F6A791A93171D0072BA42 /* main.m in Sources */,
 				B8FCC4EC1A954F1B00BD5D28 /* Constants.m in Sources */,
 				B8FCC4E21A95447300BD5D28 /* ProfileViewController.m in Sources */,
+				B8FCC4F91A97024800BD5D28 /* Deck.m in Sources */,
 				B86F6AAA1A9318310072BA42 /* MenuTableViewController.m in Sources */,
 				B8FCC4E81A9544B800BD5D28 /* SearchQuestionsViewController.m in Sources */,
 				B8FCC4F51A95608600BD5D28 /* StackOverflowService.m in Sources */,
